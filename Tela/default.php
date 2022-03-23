@@ -6,10 +6,9 @@
     <meta name="description" content=""/>
     <meta name="author" content=""/>
     <link rel="icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/style.css">
 
-    <title>
-        Agenda de Amigos
-    </title>
+    <title>Agenda de Amigos</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
