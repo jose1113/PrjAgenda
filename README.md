@@ -1,7 +1,7 @@
 # PrjAgenda
 
 A simple friend book site. To register friends, login and search for registered friends. 
-I used HTML, CSS and PHP.
+I used HTML, CSS, JS and PHP.
 
 # License
 
