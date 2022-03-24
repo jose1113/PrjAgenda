@@ -14,7 +14,7 @@
 			<a href="#">LOGIN</a>
 		</li>
 		<li>
-			<a href="#">CONSULTAR</a>
+			<a href="consultar.php">CONSULTAR</a>
 		</li>
 	</ul>
 </nav>
