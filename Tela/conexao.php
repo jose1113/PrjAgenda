@@ -1,4 +1,5 @@
 <?php
+include("default.php");
 
 $con = mysqli_connect("localhost","root","","prjagenda");
 
@@ -10,6 +11,10 @@ $sql = "INSERT INTO `cliente` (`codigo`, `nome`, `cidade`) VALUES ('0', '$nome',
 $rs = mysqli_query($con, $sql);
 
 if($rs){
-	echo "<h1>Cadastro realizado</h1>";
-	echo "<a href='index.php'><button>Retornar</button></a>";
+	echo "<div class='retornar'>
+			<h1>Cadastro realizado</h1>
+			<a href='cadastrar.php'>
+				<button>Retornar</button>
+			</a>
+		</div>";
 }
