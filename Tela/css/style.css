@@ -1,10 +1,25 @@
 form{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: baseline;
+    margin-top: 3vw;
+    height: 100%;
+}
+.tituloForm{
+    display: flex;
+    justify-content: center;
     margin-top: 20vw;
 }
 
 form label input{
     margin-right: 5px;
+}
+
+.retornar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
 }
