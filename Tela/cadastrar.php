@@ -12,16 +12,16 @@
 		</div>
 
         <div class="container">
-
-        <form method="POST" action="conexao.php">
-            <label for="nome">Nome: 
-                <input type="text" name="nome" required/>
-            </label>
-            <label for="cidade">Cidade:
-                <input type="text" name="cidade" required/>
-            </label>
-            <button type="submit">Cadastrar</button>
-        </form>
+            <h1 class="tituloForm">Cadastre um amigo</h1>
+            <form method="POST" action="conexao.php">
+                <label for="nome">Nome: 
+                    <input type="text" name="nome" required/>
+                </label>
+                <label for="cidade">Cidade:
+                    <input type="text" name="cidade" required/>
+                </label>
+                <button type="submit">Cadastrar</button>
+            </form>
 
         </div>
 	</body>
