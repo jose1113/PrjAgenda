@@ -27,7 +27,9 @@ $resultados = $sth->fetchAll(PDO::FETCH_ASSOC);
 if (count($resultados)) {
     foreach($resultados as $Resultado) {
 ?>
-<p ><?php echo $Resultado['codigo']; ?> - <?php echo $Resultado['nome']; ?></p>
+<h3 class="resultadoEncontrado">Resultados encontrados:</h3>
+<p><?php echo $Resultado['codigo']; ?> - <?php echo $Resultado['nome']; ?></p>
+<a href="consultar.php">Retornar</a>
 <br>
 <?php
 } } else {
