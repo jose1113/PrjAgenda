@@ -33,7 +33,7 @@ if (count($resultados)) {
 } } else {
 ?>
 <h3>Não foram encontrados resultados pelo termo buscado.</h3>
-<a href="cadastrar.php">Retornar</a>
+<a href="consultar.php">Retornar</a>
 <?php
 }
 ?>
