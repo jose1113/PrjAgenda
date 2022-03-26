@@ -8,7 +8,7 @@ form{
 .tituloForm{
     display: flex;
     justify-content: center;
-    margin-top: 20vw;
+    margin-top: 10vw;
 }
 
 form label input{
@@ -50,4 +50,54 @@ form label input{
     border: .2em solid rgb(145, 143, 143);
     background-color: rgb(199, 195, 195);
     text-decoration: none;
+}
+
+.styleLogin, .stylecadastrar{
+   display: flex;
+   justify-content: center;
+}
+
+.styleLogin{
+    flex-direction: column;
+}
+
+.styleLogin form{
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.styleLogin h2{
+    margin-top: 10vw;
+    margin-bottom: 3vw;
+}
+
+.styleLogin form input{
+    align-items: center;
+}
+
+.styleLogin form button{
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.logado{
+    margin-bottom: 1vw;
+}
+
+.stylecadastrar{
+    flex-direction: column;
+}
+
+.stylecadastrar form{
+    flex-direction: column;
+    align-items: center;
+}
+
+.stylecadastrar form input{
+    display: flex;
+    align-items: center;
+}
+
+.resultadoEncontrado{
+    color: black !important;
 }
